@@ -263,6 +263,7 @@ a { color: var(--navy-mid); }
 /* Sections */
 .section {
   padding: 5rem 0;
+  scroll-margin-top: 4.5rem;
 }
 
 .section h2 {
@@ -465,13 +466,15 @@ a { color: var(--navy-mid); }
 
 .range-btn {
   appearance: none;
+  position: relative;
+  z-index: 2;
   border: 1px solid var(--border);
   background: #fff;
   color: var(--steel);
   font-family: var(--font);
   font-weight: 600;
   font-size: 0.9rem;
-  padding: 0.5rem 0.9rem;
+  padding: 0.65rem 1rem;
   border-radius: var(--radius);
   cursor: pointer;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
