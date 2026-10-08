@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kinney Aviation — FAA A&amp;P certified aviation maintenance across Arizona. Airframe, Powerplant, and pilot-mechanic fly-to-you service." />
+  <title>Kinney Aviation — A&amp;P Maintenance Across Arizona</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <script src="js/charts.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Kinney Aviation home">
+        <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path fill="currentColor" d="M4 22c8-1 14-6 18-12l2 4c-3 5-8 9-16 11l-1 7H4V22zm22-8l10 3-2 2-6-1-4 6-3-1 3-7 2-2z"/>
+        </svg>
+        <span>Kinney Aviation</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#ap">A&amp;P Expertise</a>
+        <a href="#arizona">Arizona Reach</a>
+        <a href="#savings">Savings</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-sky" aria-hidden="true">
+        <div class="hero-haze"></div>
+        <svg class="hero-plane" viewBox="0 0 800 200" preserveAspectRatio="xMidYMid meet">
+          <path fill="rgba(255,255,255,0.14)" d="M40 110c120-8 220-40 300-70l18 22c-55 28-140 52-260 62l-12 48H40V110zm380-48l220 40-28 18-140-18-70 90-42-10 52-98 8-22z"/>
+        </svg>
+        <div class="hero-runway"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="brand-mark">Kinney Aviation</p>
+        <h1>Certified A&amp;P maintenance that comes to your airplane</h1>
+        <p class="lead">
+          FAA Airframe &amp; Powerplant rated, and a certified pilot — ready to fly to any airport in Arizona, perform the work, and return your aircraft ready for the mission.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Request service</a>
+          <a class="btn btn-ghost" href="#savings">See the savings</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-services">
+      <div class="container">
+        <h2>What Kinney Aviation delivers</h2>
+        <p class="section-intro">
+          One trusted partner for inspection, repair, and return-to-service — backed by dual A&amp;P ratings and the ability to reposition your aircraft under the same certificate holder who maintains it.
+        </p>
+        <ul class="service-list">
+          <li>
+            <h3>Airframe (A)</h3>
+            <p>Structure, landing gear, flight controls, cabin systems, and airworthiness of the aircraft itself.</p>
+          </li>
+          <li>
+            <h3>Powerplant (P)</h3>
+            <p>Engines, propellers, fuel and ignition systems, and powerplant-related airworthiness directives.</p>
+          </li>
+          <li>
+            <h3>Pilot-mechanic ferry</h3>
+            <p>Fly-in pickup anywhere in Arizona, maintenance on site or at a preferred facility, then flight home.</p>
+          </li>
+          <li>
+            <h3>Inspection programs</h3>
+            <p>Annuals, 100-hour inspections, progressive schedules, and AD / SB compliance tracking.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="ap" class="section section-ap">
+      <div class="container">
+        <h2>What an A&amp;P technician can handle</h2>
+        <p class="section-intro">
+          An FAA Airframe and Powerplant mechanic is authorized to inspect, maintain, and approve for return to service a broad range of general aviation work. Kinney Aviation’s CEO holds <strong>both</strong> ratings — Airframe (A) and Powerplant (P) — plus a pilot certificate, so maintenance and ferry flight stay under one accountable professional.
+        </p>
+
+        <div class="ap-split">
+          <article class="ap-block">
+            <header>
+              <span class="ap-badge">A</span>
+              <h3>Airframe rating</h3>
+            </header>
+            <p>Covers the aircraft structure and systems other than the powerplant.</p>
+            <ul>
+              <li>Sheet metal, riveted, and composite structural repairs</li>
+              <li>Landing gear, wheels, brakes, and shock struts</li>
+              <li>Flight controls, cables, pushrods, and rigging</li>
+              <li>Doors, windows, fairings, and exterior finishes</li>
+              <li>Cabin, environmental, and pressurization-related systems (as equipped)</li>
+              <li>Pitot-static, electrical, and avionics mounting support (with appropriate authorizations)</li>
+              <li>Airframe airworthiness directives and service bulletins</li>
+            </ul>
+          </article>
+          <article class="ap-block">
+            <header>
+              <span class="ap-badge">P</span>
+              <h3>Powerplant rating</h3>
+            </header>
+            <p>Covers engines, propellers, and the systems that make them run.</p>
+            <ul>
+              <li>Reciprocating and turbine engine inspection &amp; maintenance</li>
+              <li>Cylinder, magneto, and accessory work within rating scope</li>
+              <li>Fuel metering, induction, exhaust, and ignition systems</li>
+              <li>Propeller inspection, dressing, and governor support</li>
+              <li>Oil systems, cooling, and engine controls</li>
+              <li>Engine removals / installations and ground runs</li>
+              <li>Powerplant ADs, SBs, and life-limited parts tracking</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="ap-combined">
+          <span class="ap-badge ap-badge-combo">A&amp;P</span>
+          <div>
+            <h3>Combined A&amp;P capability</h3>
+            <p>
+              Holding both ratings means one mechanic can sign off a complete annual or 100-hour inspection, coordinate airframe and engine findings, and return the whole aircraft to service without handing work between separate shops — reducing schedule friction and duplicate diagnostics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="arizona" class="section section-arizona">
+      <div class="container">
+        <h2>Arizona fly-to-you service</h2>
+        <p class="section-intro">
+          Stuck away from your home field? Prefer not to ferry an airplane that needs attention? Kinney Aviation can fly to your airport, pick up the airplane, complete maintenance, and fly it back — statewide.
+        </p>
+        <ol class="flow">
+          <li>
+            <span class="flow-step">01</span>
+            <h3>You call</h3>
+            <p>Share aircraft type, location, squawk list, and desired timeline.</p>
+          </li>
+          <li>
+            <span class="flow-step">02</span>
+            <h3>We fly in</h3>
+            <p>Certified pilot-mechanic arrives at your Arizona airport.</p>
+          </li>
+          <li>
+            <span class="flow-step">03</span>
+            <h3>We maintain</h3>
+            <p>Work performed on site or after repositioning to the right facility.</p>
+          </li>
+          <li>
+            <span class="flow-step">04</span>
+            <h3>We fly it home</h3>
+            <p>Aircraft returned to your field, documented and ready for flight.</p>
+          </li>
+        </ol>
+        <p class="arizona-note">
+          Coverage includes public-use and many private fields across Arizona — Phoenix, Tucson, Flagstaff, Prescott, Yuma, Show Low, Lake Havasu, and points between. Exact routing depends on aircraft condition, weather, and airport suitability.
+        </p>
+      </div>
+    </section>
+
+    <section id="savings" class="section section-savings">
+      <div class="container">
+        <h2>Financial savings with Kinney Aviation</h2>
+        <p class="section-intro">
+          Illustrative comparisons for a typical single-engine GA owner in Arizona. Figures model ferry costs, shop markups, downtime, and consolidated A&amp;P labor — adjust assumptions to match your mission.
+        </p>
+
+        <div class="chart-controls" role="group" aria-label="Annual flight hours assumption">
+          <span class="chart-controls-label">Annual utilization</span>
+          <button type="button" class="range-btn is-active" data-hours="100">100 hrs/yr</button>
+          <button type="button" class="range-btn" data-hours="150">150 hrs/yr</button>
+          <button type="button" class="range-btn" data-hours="200">200 hrs/yr</button>
+        </div>
+
+        <div class="chart-grid">
+          <figure class="chart-panel">
+            <figcaption>
+              <h3>Cost per annual inspection cycle</h3>
+              <p>Traditional ferry + remote shop vs. Kinney fly-to-you</p>
+            </figcaption>
+            <canvas id="chart-cycle" height="220" aria-label="Bar chart comparing annual inspection cycle costs"></canvas>
+          </figure>
+          <figure class="chart-panel">
+            <figcaption>
+              <h3>Five-year ownership cost</h3>
+              <p>Cumulative maintenance + logistics spend</p>
+            </figcaption>
+            <canvas id="chart-five-year" height="220" aria-label="Line chart of five-year cumulative costs"></canvas>
+          </figure>
+          <figure class="chart-panel">
+            <figcaption>
+              <h3>Where the savings come from</h3>
+              <p>Typical dollar mix on a mid-cycle year</p>
+            </figcaption>
+            <canvas id="chart-breakdown" height="220" aria-label="Doughnut chart of savings categories"></canvas>
+          </figure>
+          <figure class="chart-panel">
+            <figcaption>
+              <h3>Aircraft downtime (days)</h3>
+              <p>Calendar days from grounding to return-to-service</p>
+            </figcaption>
+            <canvas id="chart-downtime" height="220" aria-label="Bar chart comparing downtime days"></canvas>
+          </figure>
+        </div>
+
+        <div class="savings-summary" id="savings-summary" aria-live="polite">
+          <div>
+            <span class="summary-value" id="summary-save">—</span>
+            <span class="summary-label">Est. savings per cycle</span>
+          </div>
+          <div>
+            <span class="summary-value" id="summary-five">—</span>
+            <span class="summary-label">Est. 5-year savings</span>
+          </div>
+          <div>
+            <span class="summary-value" id="summary-days">—</span>
+            <span class="summary-label">Days of downtime avoided</span>
+          </div>
+        </div>
+        <p class="disclaimer">
+          Charts are educational models, not quotes. Actual pricing depends on aircraft make/model, parts, AD status, travel distance, and hangar access. Contact Kinney Aviation for a tailored estimate.
+        </p>
+      </div>
+    </section>
+
+    <section id="credentials" class="section section-credentials">
+      <div class="container">
+        <h2>Credentials that matter</h2>
+        <p class="section-intro">Accountability you can verify — ratings that match the work your aircraft needs.</p>
+        <ul class="cred-list">
+          <li>
+            <strong>FAA Airframe (A)</strong>
+            <span>Authorized to maintain and approve airframe work for return to service</span>
+          </li>
+          <li>
+            <strong>FAA Powerplant (P)</strong>
+            <span>Authorized to maintain and approve engine and propeller work</span>
+          </li>
+          <li>
+            <strong>Certified pilot</strong>
+            <span>Qualified to reposition customer aircraft across Arizona when airworthy for the flight</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="brand-mark brand-mark-dark">Kinney Aviation</p>
+          <h2>Ready when your airplane is</h2>
+          <p>
+            Tell us where the aircraft is, what it needs, and when you need it back.
+            Statewide Arizona response for owners who want A&amp;P expertise without the ferry logistics headache.
+          </p>
+        </div>
+        <form class="contact-form" action="mailto:contact@kinneyaviation.example" method="get" enctype="text/plain">
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            Aircraft &amp; location
+            <input type="text" name="aircraft" placeholder="e.g. Cessna 172 · Flagstaff Pulliam (KFLG)" required />
+          </label>
+          <label>
+            How can we help?
+            <textarea name="body" rows="4" placeholder="Annual due, squawks, preferred dates…" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send request</button>
+          <p class="form-note">Opens your email client with the details filled in. Replace the mailto address when your inbox is ready.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Kinney Aviation</strong> — A&amp;P maintenance &amp; Arizona pilot-mechanic service.</p>
+      <p class="footer-meta">Static site for GitHub Pages · Illustrative savings models only</p>
+    </div>
+  </footer>
+</body>
+</html>
